@@ -1,1 +1,40 @@
 /*Schrijf hier jouw CSS*/
+.body-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.main-layout article {
+    flex-basis: 75vw;
+}
+.main-layout nav {
+    flex-basis: 25vw;
+}
+.main-layout aside {
+    flex-basis: 25vw;
+}
+
+header {
+    flex-basis: 10vh;
+}
+footer {
+    flex-basis: 10vh;
+}
+
+aside {
+    order: 2;
+}
+nav {
+    order:3;
+}
+
